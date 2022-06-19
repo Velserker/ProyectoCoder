@@ -329,6 +329,9 @@ header {
       .body-almuerzo .power .almuerzos .contenedor-almuerzos .contenedor-almuerzo .almuerzo {
         display: table-column;
         margin-bottom: 60px; }
+        @media (max-width: 425px) {
+          .body-almuerzo .power .almuerzos .contenedor-almuerzos .contenedor-almuerzo .almuerzo {
+            margin-right: 15px; } }
         .body-almuerzo .power .almuerzos .contenedor-almuerzos .contenedor-almuerzo .almuerzo h3 {
           color: gold;
           margin-bottom: 8px; }
@@ -343,6 +346,10 @@ header {
             height: 30px;
             padding: 2px;
             box-shadow: #000000; }
+            @media (max-width: 425px) {
+              .body-almuerzo .power .almuerzos .contenedor-almuerzos .contenedor-almuerzo .almuerzo h3 span {
+                width: 20px;
+                height: auto; } }
         .body-almuerzo .power .almuerzos .contenedor-almuerzos .contenedor-almuerzo .almuerzo ul {
           display: list-item;
           list-style: none;

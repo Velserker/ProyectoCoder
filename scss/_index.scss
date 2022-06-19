@@ -30,9 +30,6 @@
                     }
                     .contenido-textos{
                         @include contenido-textos();
-                        @include celular{
-                            width: 100%;
-                        }
                     }
                 }
             }

@@ -170,6 +170,9 @@ header {
               padding-bottom: 15px; } }
         .index .power .sobre-nosotros .contenedor .contenedorSobreNosotros .contenido-textos {
           width: 46%; }
+          @media (max-width: 425px) {
+            .index .power .sobre-nosotros .contenedor .contenedorSobreNosotros .contenido-textos {
+              width: 100%; } }
           .index .power .sobre-nosotros .contenedor .contenedorSobreNosotros .contenido-textos h3 {
             color: gold;
             margin-bottom: 15px; }
@@ -189,9 +192,6 @@ header {
             padding: 0px 0px 30px 15px;
             font-weight: 300;
             text-align: justify; }
-          @media (max-width: 425px) {
-            .index .power .sobre-nosotros .contenedor .contenedorSobreNosotros .contenido-textos {
-              width: 100%; } }
   .index .power .portafolio {
     background: #000000; }
     .index .power .portafolio .contenedor {
@@ -491,6 +491,9 @@ header {
       font-size: 30px;
       text-align: center;
       margin-bottom: 60px; }
+      @media (max-width: 425px) {
+        .servicios .power .sobre-nosotros .contenedorServicios h2 {
+          font-size: 1.7rem; } }
       .servicios .power .sobre-nosotros .contenedorServicios h2 a {
         color: gold;
         text-decoration: none; }
@@ -500,10 +503,22 @@ header {
       display: flex;
       justify-content: space-evenly;
       margin-bottom: 60px; }
+      @media (max-width: 425px) {
+        .servicios .power .sobre-nosotros .contenedorServicios .contenedor-servicios {
+          display: inline-block;
+          margin: 0 10px; } }
       .servicios .power .sobre-nosotros .contenedorServicios .contenedor-servicios .imagen-servicios {
         width: 46%; }
+        @media (max-width: 425px) {
+          .servicios .power .sobre-nosotros .contenedorServicios .contenedor-servicios .imagen-servicios {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 15px; } }
       .servicios .power .sobre-nosotros .contenedorServicios .contenedor-servicios .contenido-textos {
         width: 46%; }
+        @media (max-width: 425px) {
+          .servicios .power .sobre-nosotros .contenedorServicios .contenedor-servicios .contenido-textos {
+            width: 100%; } }
         .servicios .power .sobre-nosotros .contenedorServicios .contenedor-servicios .contenido-textos h3 {
           color: gold;
           margin-bottom: 15px; }
@@ -531,6 +546,9 @@ header {
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px; }
+    @media (max-width: 425px) {
+      .reservas .power .carousel .titulo {
+        font-size: 1.7rem; } }
     .reservas .power .carousel .titulo a {
       color: gold;
       text-decoration: none; }
@@ -547,6 +565,9 @@ header {
       font-size: 30px;
       text-align: center;
       margin-bottom: 60px; }
+      @media (max-width: 425px) {
+        .reservas .power .carousel .carousel-inner .carousel-item .contenedor .titulo {
+          font-size: 1.7rem; } }
       .reservas .power .carousel .carousel-inner .carousel-item .contenedor .titulo a {
         color: gold;
         text-decoration: none; }
@@ -568,6 +589,9 @@ header {
             padding-bottom: 15px; } }
       .reservas .power .carousel .carousel-inner .carousel-item .contenedor .contenedorSobreNosotros .contenido-textos {
         width: 46%; }
+        @media (max-width: 425px) {
+          .reservas .power .carousel .carousel-inner .carousel-item .contenedor .contenedorSobreNosotros .contenido-textos {
+            width: 100%; } }
         .reservas .power .carousel .carousel-inner .carousel-item .contenedor .contenedorSobreNosotros .contenido-textos h3 {
           color: gold;
           margin-bottom: 15px; }
@@ -601,6 +625,9 @@ header {
       font-size: 30px;
       text-align: center;
       margin-bottom: 60px; }
+      @media (max-width: 425px) {
+        .reservas .power .carousel .carousel-inner .carousel-item .contenedor .titulo {
+          font-size: 1.7rem; } }
       .reservas .power .carousel .carousel-inner .carousel-item .contenedor .titulo a {
         color: gold;
         text-decoration: none; }
@@ -645,6 +672,9 @@ header {
       font-size: 30px;
       text-align: center;
       margin-bottom: 60px; }
+      @media (max-width: 425px) {
+        .reservas .power .carousel .carousel-inner .carousel-item .contenedor .titulo {
+          font-size: 1.7rem; } }
       .reservas .power .carousel .carousel-inner .carousel-item .contenedor .titulo a {
         color: gold;
         text-decoration: none; }
@@ -696,6 +726,9 @@ header {
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px; }
+    @media (max-width: 425px) {
+      .reservas .power .hora .titulo {
+        font-size: 1.7rem; } }
     .reservas .power .hora .titulo a {
       color: gold;
       text-decoration: none; }

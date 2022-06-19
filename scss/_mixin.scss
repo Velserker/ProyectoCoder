@@ -32,6 +32,9 @@
             font-size: 50px;
             text-align: center;
             margin-bottom: 100px;
+            @include celular{
+                font-size: 2rem;
+            }
         }
         .contenedorProducto{
             display: flex;

@@ -15,12 +15,23 @@
                         .contenedorSobreNosotros{
                             display: flex;
                             justify-content: space-evenly;
+                            @include celular{
+                                display: inline-block;
+                            }
                             .imagen-sobre-nosotros{
                                 width: 46%;
                                 height: 25rem;
+                                @include celular{
+                                    width: 100%;
+                                    height: 30%;
+                                    padding-bottom: 15px;
+                                }
                             }
                             .contenido-textos{
                                 @include contenido-textos();
+                                @include celular{
+                                    width: 100%;
+                                }
                             }
                         }
                     }
@@ -35,12 +46,22 @@
                             display:flex;
                             justify-content: space-between;
                             align-items: center;
+                            @include celular{
+                                display: inline-block;
+                            }
                             .servicio-individual{
                                 width: 28%;
                                 text-align: center;
+                                @include celular{
+                                    width: 100%;
+                                }
                                 img{
                                     height: 120px;
                                     width: 90%;
+                                    @include celular{
+                                        width: 50%;
+                                        height: 90px;
+                                    }
                                 }
                                 h3{
                                     color: gold;

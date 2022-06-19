@@ -1,0 +1,6 @@
+body{ 
+    font-family:'Open Sans', sans-serif;
+    @include celular{
+        font-size: 0.8rem;
+    }
+}

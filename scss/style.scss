@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family:'Open Sans', sans-serif;
+}
+
+@import "breakpoints";
+@import "header";
+@import "power";
+@import "nav-baja";
+@import "footer";
+@import "mixin";
+@import "index";
+@import "almuerzos";
+@import "menu";
+@import "servicios";
+@import "reservas";
+@import "media";

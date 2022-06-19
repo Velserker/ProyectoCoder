@@ -1,0 +1,20 @@
+.navBar-baja{
+    grid-area: nav-b;
+    text-align: center;
+    background-color: #000000;
+    padding: 60px;
+    ul{
+        li{
+            display: inline-block;
+            a{
+                color: gold;
+                font-weight: 600;
+                text-decoration: none;
+                margin-right: 10px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

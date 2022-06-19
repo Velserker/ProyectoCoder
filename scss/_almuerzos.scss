@@ -1,0 +1,60 @@
+.body-almuerzo{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: 
+    "header  header  header  header  header  header"
+    "power   power   power   power   power   power"
+    "nav-b   nav-b   nav-b   nav-b   nav-b   nav-b"
+    "pie     pie     pie     pie     pie     pie"
+    ; 
+    .headerAlmuerzos{
+    background: -webkit-linear-gradient(to right, #FFFFFF, hsla(158, 93%, 70%, 0.701), hsla(158, 64%, 44%, 0.701)),url(../img/portadaAlmuerzos.jpg); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, rgba(197, 107, 250, 0.701), hsla(158, 64%, 44%, 0.701)),url(../img/portadaAlmuerzos.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    .power{
+        .almuerzos{
+            background-color: #000000;
+            .contenedor-almuerzos{
+                .contenedor-almuerzo{
+                    display: flex;
+                    text-align: center;
+                    justify-content:space-evenly;
+                    flex-wrap: wrap;
+                    .almuerzo{
+                        display: table-column;
+                        margin-bottom: 60px;
+                        h3{
+                            color: gold;
+                            margin-bottom: 8px;
+                            span{
+                                margin-right: 5px;
+                                background: red;
+                                color: #FFFFFF;
+                                border-radius: 50%;
+                                display: inline-block;
+                                text-align: center;
+                                width: 30px;
+                                height: 30px;
+                                padding: 2px;
+                                box-shadow: #000000
+                            }
+                        }
+                        ul{
+                            display: list-item;
+                            list-style: none;
+                            color: white;
+                            padding: 0px 0px 30px 15px;
+                            font-weight: 400;
+                            li{
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+$breakpoints:(
+    "celular": 425px,
+    "grande": 2560px,
+);
+
+@mixin celular{
+    @media (max-width: map-get($breakpoints, "celular")){
+        @content;
+    }
+}
+
+@mixin grande{
+    @media (max-width: map-get($breakpoints, "grande")){
+        @content;
+    }
+}

@@ -1,0 +1,23 @@
+.power{
+    grid-area: power;
+    .contenedor{
+        padding: 60px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+        .titulo{
+            color: gold;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 60px;
+            a{
+                color: gold;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

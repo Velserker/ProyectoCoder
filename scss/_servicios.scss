@@ -1,0 +1,17 @@
+.servicios{
+    .headerServicios{
+        background: -webkit-linear-gradient(to right, #FFFFFF, hsla(158, 93%, 70%, 0.701), hsla(158, 64%, 44%, 0.701)),url(../img/portadaServicios.jpg); 
+         /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, rgba(197, 107, 250, 0.701), hsla(158, 64%, 44%, 0.701)),url(../img/portadaServicios.jpg);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
+    }
+    .power{
+        .sobre-nosotros{
+            background-color: black;
+            .contenedorServicios{
+                @include contenedorServicios();
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+header{
+    grid-area: header; 
+    width: 100%;
+    height: 600px;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, hsla(158, 93%, 70%, 0.701), hsla(158, 64%, 44%, 0.701)),url(../img/portada.jpg); 
+     /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, rgba(197, 107, 250, 0.701), hsla(158, 64%, 44%, 0.701)),url(../img/portada.jpg);         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover; /* para que la imagen cubra todo el espacio */        background-attachment: fixed;        position: relative; 
+    .logo{
+        grid-area: logo;
+        width: 50px;
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 7rem;
+        @include celular{
+            margin-left: 30px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .navBar{
+        grid-area: navBar;
+        background-color: rgba(0, 0, 0, 0);
+        text-align:end;
+        padding: 5px 50px;
+        ul{
+            li{
+                display:inline-flex;
+                list-style: none;
+                text-decoration: none;  
+                a{
+                    color: #000000;
+                    font-weight: 600;
+                    text-decoration: none;
+                    margin-right: 10px; 
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                } 
+            }
+        }
+    }
+    .textos-header{ 
+        display: flex; 
+        height: 320px;
+        width: 100%;
+        align-items: center; 
+        justify-content: center; 
+        flex-direction: column;
+        text-align: center; 
+        h1{
+            font-size: 50px;
+            color: #000000;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 300;
+            color: #000000;
+        }
+    }
+    .wave{
+        /* como la puse position: relative; al header le puedo poner al wabe un absolute */
+        position: absolute;
+        bottom: 0;
+        width: 100%
+    }
+}

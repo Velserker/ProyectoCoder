@@ -26,6 +26,9 @@ header{
         background-color: rgba(0, 0, 0, 0);
         text-align:end;
         padding: 5px 50px;
+        @include celular{
+            
+        }
         ul{
             li{
                 display:inline-flex;
